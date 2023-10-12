@@ -1,25 +1,17 @@
+import math
+import os
 import random
-import tkinter
-#import tkMessageBox
+import re
+import sys
 
-a=[1, 4, 8, 10, 3]
-def fun(x):
-    print("removed")
-    a.remove(x)
-    
-def fun1():
-    print("not removed")
-b=random.choice(a)
-print (b)
-top = tkinter.Tk()
-frame=tkinter.Frame(top)
-frame.pack()
-c = tkinter.Button(frame, text ="removed", command = fun(b))
-c.pack(side=tkinter.LEFT)
-d =  tkinter.Button(frame, text ="not removed",command = fun1())
-d.pack(side=tkinter.LEFT)
-e= tkinter.Button(frame, text ="quit",command = quit)
-e.pack(side=tkinter.LEFT)
-print(a)
-top.mainloop()
+if __name__ == '__main__':
+    n = int(input("Enter an integer:"))
 
+if n % 2 != 0:
+    print("Weird")
+elif n % 2 == 0 and 2 <= n <= 5:
+    print("Not Weird")
+elif n % 2 == 0 and 6 <= n <= 20:
+    print("Weird")
+elif n % 2 == 0 and n > 20:
+    print("Not Weird")
