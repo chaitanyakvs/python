@@ -10,9 +10,14 @@ print(site_name)
 print(f"Hello {site_name}")    #output: Hello python programming"
 
 # Changing the Value of a Variable in Python
-number = 10
+number = 10         # Here number = 10 mentioned without quoations act as integer
 print(type(number))
 print(number)
 number = 20
 print(type(number))
 print(number)
+
+
+# From the above two lines, keywords or characters or letters in quotations act
+# as strings in python. And 
+
