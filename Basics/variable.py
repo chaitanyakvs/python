@@ -4,6 +4,11 @@
 site_name = 'python programming'
 print(site_name)
 
+# We could use variable along with sometext by using "f"string and the variable
+# suppose to be incurly braces {}
+
+print(f"Hello {site_name}")
+
 # Changing the Value of a Variable in Python
 number = 10
 print(type(number))
