@@ -1,0 +1,13 @@
+Python functions
+------------------
+
+A function is a block of code that performs a specific task, Dividing a complex problem into smaller chunks makes our program easy to understand and reuse.
+
+Sample program: 
+----------------
+
+def greet():
+	print('Hello World!')
+
+
+Here def keyword is use to create function, "greet" is name of the function and "Hello World" is the function body 
