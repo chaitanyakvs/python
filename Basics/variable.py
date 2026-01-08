@@ -19,6 +19,6 @@ print(number)
 
 
 # From the above two lines, keywords or characters or letters in quotations act
--# as strings in python. And 
+# as strings in python.
 
-# Sample git function
+
