@@ -11,4 +11,5 @@ gpa = int(gpa)
 print(gpa)
 print(type(gpa))
 # In this example, we have a string variable `name`, an integer variable `age`, a float variable `gpa`, 
-# and a boolean variable `is_student`. We then convert the float `gpa` to an integer using the `int()` function. After the conversion, we print the new value of `gpa` and its type to confirm the change.
+# and a boolean variable `is_student`. We then convert the float `gpa` to an integer using the `int()` function. 
+# After the conversion, we print the new value of `gpa` and its type to confirm the change.
