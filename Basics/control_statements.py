@@ -3,6 +3,13 @@
 
 age = int(input("enter your age: "))
 
+# Implementing bool() function to check the truth value of a variable
+has_ticket = True
+if has_ticket:
+    print("you can enter")
+else: 
+    print(" you cannot enter: ")
+
 if age >= 18:
     print("you are eligible to vote")
 
