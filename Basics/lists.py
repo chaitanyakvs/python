@@ -21,5 +21,8 @@ fruits.pop(1)  # Removing the item at index 1 ("cherry")
 print(fruits)  # Output: ['orange', 'apple', 'grape']
 # Length of the list
 print(len(fruits))  # Output: 3
-fruits.clear()  # Removing all items from the list
+for fruit in fruits:
+    print(fruit, end=' ')  # Output: orange apple grape (each on a new line)
+fruits.clear()
+# Removing all items from the list
 print(fruits)  # Output: []
